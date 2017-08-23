@@ -3,8 +3,9 @@
   "name": "startbootstrap-agency",
   "version": "4.0.0-beta",
   "description": "Agency is a one page HTML theme for Bootstrap.",
+  "main": "app.js",
   "scripts": {
-    "start": "app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "css",
@@ -24,6 +25,9 @@
   "contributors": [
     "David Miller (http://davidmiller.io/)"
   ],
+  "engines": {
+    "node": "8.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
@@ -34,6 +38,7 @@
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1",
+    "node": "^8.3.0",
     "popper.js": "^1.11.1"
   },
   "devDependencies": {
